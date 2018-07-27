@@ -4,22 +4,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/getUsers"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Get users" />
 
-    <Button
-        android:id="@+id/getGroups"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/getUsers"
-        android:text="Get groups" />
 
     <com.uber.sdk.android.rides.RideRequestButton
         android:id="@+id/getUber"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         uber:ub__style="black" />
@@ -29,6 +18,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fastScrollEnabled="true"
+        android:divider="@color/divider"
+        android:dividerHeight="1dp"
         android:orientation="vertical" />
 
 </RelativeLayout>

@@ -3,5 +3,12 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="list_height">88dp</dimen>
+    <dimen name="font_p">16sp</dimen>
+    <dimen name="font_s">14sp</dimen>
+    <dimen name="list_item_height">80dp</dimen>
     <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="button_ele">4dp</dimen>
+    <dimen name="card_ele">4dp</dimen>
+
 </resources>
