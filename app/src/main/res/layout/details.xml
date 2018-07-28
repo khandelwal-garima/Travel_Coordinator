@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:paddingTop="@dimen/activity_horizontal_margin"
+        >
+        <TextView
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:text="@string/mobile"
+            android:textSize="@dimen/font_p"
+            android:textColor="@color/primary_text"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+        <EditText
+            android:layout_marginStart="@dimen/activity_vertical_margin"
+            android:layout_marginEnd="@dimen/activity_vertical_margin"
+            android:id="@+id/phoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/phone"
+            android:inputType="phone"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hint1"
+            android:textSize="@dimen/font_s"
+            android:textColor="@color/secondary_text"
+            android:layout_marginStart="@dimen/activity_vertical_margin"
+            />
+        <Button
+            android:id="@+id/submit_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:layout_gravity="right"
+            android:elevation="4dp"
+            android:text="@string/submit"
+            />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
